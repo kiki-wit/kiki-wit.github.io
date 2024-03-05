@@ -1,8 +1,7 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: kiki-wit
+title: kiki blog | Technology Blog Of kiki
+description: A place to organize the contents of the development study.
 tags:
   - blog
   - template
