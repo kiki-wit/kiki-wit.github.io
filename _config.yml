@@ -19,7 +19,9 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
+  - title: ML
+    url: /ml
+email: grapewater123@gmail.com
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
