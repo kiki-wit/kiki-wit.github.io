@@ -27,7 +27,10 @@ kiki-wit 블로그에 오신 것을 환영합니다!
 Hello!
 Welcome to the kiki-wit blog!
 
-I am passionate about future technologies, developer growth, and side hustles. I am starting this journey on March 8, 2024, and I hope to grow together with you through this blog, achieve my goals, and help those who visit achieve their dreams as well.
+I am passionate about future technologies, developer growth, <br>
+and side hustles. I am starting this journey on March 8, 2024, <br> 
+and I hope to grow together with you through this blog, achieve my goals, <br>
+and help those who visit achieve their dreams as well.
 
 Thank you for visiting!
 
