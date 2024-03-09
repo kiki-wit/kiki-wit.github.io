@@ -20,6 +20,9 @@ menu:
     url: /feed.xml
   - title: ML
     url: /ml
+    children:
+      - title: TensorFlow
+        url: /ml/tensorflow
 email: grapewater123@gmail.com
 # See: https://disqus.com/
 disqus_username: disqus_username
