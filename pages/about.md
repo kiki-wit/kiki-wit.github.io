@@ -7,7 +7,7 @@ description: 풀스택을 지향하는 백엔드 개발자입니다.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thomas A. Anderson" width="200">
+<img class="img-rounded" src="/assets/img/uploads/cat_54.png" alt="Thomas A. Anderson" width="200">
 
 # About
 
