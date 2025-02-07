@@ -1,16 +1,17 @@
 ---
-date: 2024-03-08 23:59:58
+date: 2024-02-07 21:47
 layout: post
-title: Welcome to ~
-subtitle: 'What matters more than knowledge is imagination.'
+title: 보조사업자 개론
+subtitle: 보조금 부정수급 탐지 시스템 관련 개념 정리
 description: >-
   What matters more than knowledge is imagination.
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559822138/theme9_v273a9.jpg
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559822138/theme9_v273a9.jpg
-category: blog
+category: bisz
 tags:
-  - welcome
-  - blog
+  - 보조사업자
+  - 부정수급
+  - 행안부
 author: mranderson
 paginate: true
 ---
