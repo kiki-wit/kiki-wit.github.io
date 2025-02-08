@@ -2,10 +2,10 @@
 date: 2024-02-07 21:47
 layout: post
 title: 보조사업자 개론
-subtitle: 보조금 부정수급 탐지 시스템 관련 개념 정리
+subtitle: 보조사업자와 보조금사업 시스템
 description: >-
-  What matters more than knowledge is imagination.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559822138/theme9_v273a9.jpg
+  보조사업자와 보조금사업 시스템 개념 정리
+image: 
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559822138/theme9_v273a9.jpg
 category: bisz
 tags:
@@ -13,116 +13,99 @@ tags:
   - 부정수급
   - 행안부
 author: mranderson
-paginate: true
 ---
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
-
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
-
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
-
-## Inline HTML elements
-
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
-
-* **To bold text**, use `<strong>`.
-* *To italicize text*, use `<em>`.
-* Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-* Citations, like <cite>&mdash; Thomas A. Anderson</cite>, should use `<cite>`.
-* <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-* Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
-
-Most of these elements are styled by browsers with few modifications on our part.
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
---page-break--
-
-## Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
-```js
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-```
-
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-
-## Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](https://placehold.it/800x400 "Large example image") ![placeholder](https://placehold.it/400x200 "Medium example image") ![placeholder](https://placehold.it/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#### 1. 보조사업자 개념
+**보조사업자는 중앙부처로부터 보조금을 지원받아 보조사업을 수행하는 자**를 의미한다. 1)민간 보조사업은 중앙부처에서 보조사업자를 선정하고 
+2)지자체 보조사업은 중앙부처로부터 보조금을 교부받은 지방자치단체에서 보조사업자를 선정한다. 
+<br/>보조사업자 또는 간접 보조사업자는 간접 보조사업자에게 보조사업 목적에 따른 (간접)보조금을 교부해줄 수 있다. 간접 보조사업자는 보조금 법령에 따라 
+상위 보조사업자의 의무 중 일부를 수행하여야 한다.
+<br/>중앙부처와 지방자치단체, 보조사업자, 간접 보조사업자는 수령자를 선정할 수 있다.
 
 <table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
+<tbody>
+<tr>
+  <td colspan="2">보조사업자</td>
+  <td>중앙부처로부터 보조금을 지원받아 보조사업을 수행한다. 중앙부처나 지자체로부터 직접 선정된 보조사업자는 공모차수 1이다.</td>
+</tr>
+<tr>  
+  <td rowspan="4">수령자</td>
+</tr>
+<tr>
+  <td>수급자</td>
+  <td>대가없이 보조금을 수령하며, 정산 의무가 없다. <br/>예) 기초연금, 생계급여 등</td>
+</tr>
+<tr>
+  <td>거래처</td>
+  <td>물품, 용역을 제공하고 대가를 지급받으며 정산 의무가 없다.</td>
+</tr>
+</tbody>
 </table>
 
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+#### 2. 간접 보조사업자 지정
+보조사업자가 간접 보조사업자를 선정할 때 공모와 직접선정 두 가지 방식이 있다. 
+
+1. 상위 보조사업자가 (간접)보조사업자를 공모로 선정
+2. 상위 보조사업자가 (간접)보조사업자를 직접 지정
+
+공모 선정의 경우 간접 보조사업자가 상위 보조사업자에게 사업신청서를 제출하고, 직접 지정은 사업등록서만 제출한다.
+
+#### 3. 보조금 집행
+중앙부처나 지방자치단체가 보조사업자에게 보조금을 교부하고 집행하는 것을 말한다. 보조금은 중앙부처와 지자체에서 분담하여 한국재정정보원에 예탁한다.<br/>
+예를들어, 중앙부처 50% + 지자체(시) 20% + 지자체(구) 20% 로 총 90%를 **한국재정정보원**에 예치하고 증빙 검증 후 예탁계좌 또는 보조사업자 자부담 통장에 집행된다.
+<br/>자부담 금액은 10%가 발생되어 총 100%가 된다.
+
+**사업수행 단계**
+<p>1단계: 보조사업자를 선정하는 사업공고(공모)가 올라온다.</p>
+<p>2단계: 보조사업자는 사업계획서와 지원신청서를 제출한다.</p>
+<p>3단계: 공모자 심의 및 선정(신청자 자격 검증)</p>
+<p>4단계: 보조사업자는 교부신청서를 제출한다.</p>
+<p>5단계: 심사 후 교부가 결정되면 예탁기관 또는 개인계좌에 교부금액이 들어온다.</p>
+<p>6단계(수행): 보조사업 수행시 세금계산서와 지출내역을 등록한다.</p>
+<p>7단계(완료): 보조사업자는 사업 완료 후 실적보고서와 집행잔액을 반납한다.</p>
+
+보조사업 유형에 따라 예치형과 비예치형 사업으로 구분되어 수행된다. 비예치형은 국내 금융기관 사용이 어려운 정보취약계층이나 해외사업자, 교육기관 등이 해당된다.
+
+🔹 예치형 <br/>
+각 보조사업의 예탁계좌가 생성되어 상위보조사업자가 예탁계좌에 보조금을 교부한다.
+
+🔹 비예치형 <br/>
+자부담 계좌로 보조금을 교부한다.
+
+
+#### 4. 보조금 재원
+보조금 재원은 보조금을 지급하는데 필요한 자금의 출처를 의미한다. 정부 예산이이나 기부 및 기업 후원 등이 있다. 
+
+#### 5. 보조사업 거래처
+보조사업을 수행하는 과정에서 상호 협력하는 기업, 기관, 개인 등을 가리킨다. 각 보조금 사업의 목적과 성격에 따라 거래처의 구성은 달라질 수 있다.
+
+**보조사업 거래처의 유형**
+
+1. 농업 지원 보조금
+- 보조금을 제공하는 주체: 농림축산식품부
+- 보조금을 받는 주체: 농업인
+- 거래처: 농기계 제조업체, 비료 및 농약 공급업체
+
+`예시` <br/>
+농림축산식품부가 농업인에게 농업 현대화를 위한 보조금을 제공하고, 농업인은 이를 이용해 농기계나 비료를 구입하는데 사용하며 농기계나 비료 공급업체는 거래처가 된다.
+
+2. 중소기업 지원 보조금
+- 보조금을 제공하는 주체: 중소벤처기업부
+- 보조금을 받는 주체: 중소기업
+- 거래처: IT솔루션 제공업체
+
+`예시` <br/>
+중소기업이 ERP 시스템을 도입하거나 웹사이트 구축을 할 때 솔루션 제공업체가 거래처가 된다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
