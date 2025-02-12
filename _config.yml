@@ -18,12 +18,7 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-  - title: ML
-    url: /ml
-    children:
-      - title: TensorFlow
-        url: /ml/tensorflow
-email: grapewater123@gmail.com
+email: 
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
