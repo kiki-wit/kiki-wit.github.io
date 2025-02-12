@@ -1,5 +1,5 @@
 ---
-date: 2024-02-07 21:47
+date: 2025-02-07 21:47
 layout: post
 title: 보조사업자 개론
 subtitle: 보조사업자와 보조금사업 시스템
@@ -7,12 +7,12 @@ description: >-
   보조사업자와 보조금사업 시스템 개념 정리
 image: 
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559822138/theme9_v273a9.jpg
-category: bisz
+category: biz
 tags:
   - 보조사업자
   - 부정수급
   - 행안부
-author: mranderson
+author: kiki
 ---
 #### 1. 보조사업자 개념
 **보조사업자는 중앙부처로부터 보조금을 지원받아 보조사업을 수행하는 자**를 의미한다. 1)민간 보조사업은 중앙부처에서 보조사업자를 선정하고 
