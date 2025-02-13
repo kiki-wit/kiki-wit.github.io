@@ -133,3 +133,115 @@ GROUP BY GROUPING SETS(department, job);
     </tr>
   </tbody>
 </table>
+
+### 랭킹함수
+
+`RANK` `DENSE_RANK` `ROW_NUMBER`
+>순위를 매길 때 사용하는 윈도우 함수이다. 
+
+`원본`
+<table>
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>SCORE</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Alice</td>
+        <td>90</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Bob</td>
+        <td>85</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Charlie</td>
+        <td>85</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>David</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Eve</td>
+        <td>75</td>
+    </tr>
+</table>
+
+```sql
+SELECT ID, NAME, SCORE,
+       RANK() OVER (ORDER BY SCORE DESC) AS RANKING,
+       DENSE_RANK() OVER (ORDER BY SCORE DESC) AS DENSE_RANKING,
+       ROW_NUMBER() OVER (ORDER BY SCORE DESC) AS ROW_NUM
+FROM STUDENTS;
+```
+`결과`
+<table>
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>SCORE</th>
+        <th>RANK()</th>
+        <th>DENSE_RANK()</th>
+        <th>ROW_NUMBER()</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Alice</td>
+        <td>90</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Bob</td>
+        <td>85</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Charlie</td>
+        <td>85</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>David</td>
+        <td>80</td>
+        <td>4</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Eve</td>
+        <td>75</td>
+        <td>5</td>
+        <td>4</td>
+        <td>5</td>
+    </tr>
+</table>
+
+✅ **각 함수의 차이점**
+
+1️⃣ RANK() 
+- 동일한 점수(85)일 경우 같은 순위(2) 부여
+- 다음 순위는 건너뛰어서 4가 됨
+
+2️⃣ DENSE_RANK()
+- 동일한 점수(85)일 경우 같은 순위(2) 부여
+- 다음 순위는 연속적으로 3이 됨
+
+3️⃣ ROW_NUMBER()
+- 무조건 각 행마다 고유한 번호 부여
+- 동점이라도 순서대로 번호가 매겨짐
