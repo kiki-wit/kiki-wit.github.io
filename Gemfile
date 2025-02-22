@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem 'webrick'
-
+# gem 'jekyll-toc'
 gem "kramdown"
 gem "kramdown-parser-gfm"
 gem "rouge"

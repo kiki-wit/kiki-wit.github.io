@@ -245,3 +245,49 @@ FROM STUDENTS;
 3️⃣ ROW_NUMBER()
 - 무조건 각 행마다 고유한 번호 부여
 - 동점이라도 순서대로 번호가 매겨짐
+
+
+### 계층형
+
+- START WITH : 계층 구조 전개의 시작 위치를 지정한다.
+- CONNECT BY : 다음에 전개될 자식 데이터를 지정한다.
+- PRIOR : CONNECT BY절에 사용되며 PRIOR 자식 = 부모 (순방향 전개) 자식 = PRIOR 부모 (역방향 전개)
+- NOCYCLE : 
+- ORDER SIBLINGS BY : 형제 노드(동일 LEVEL) 사이에서 정렬을 수행한다.
+- WHERE : 모든 전개를 수행한 후에 지정된 조건을 만족하는 데이터만 추출한다.
+
+<br/>
+
+### 가상컬럼(Pseudo Column)
+
+<table>
+  <tr>
+      <th>LAVEL</th>
+      <td>루트 데이터면 1, 그 하위 데이터면 2이다.</td>
+  </tr>
+  <tr>
+      <th>CONNECT_BY_ISLEAF</th>
+      <td>전개 과정에서 해당 데이터가 리프 데이터면 1, 그렇지 않으면 2이다.</td>
+  </tr>
+  <tr>
+      <th>CONNECT_BY_ISCYCLE</th>
+      <td>전개 과정에서 자식을 갖는데, 해당 데이터가 조상으로서 존재하면 1, 그렇지 않으면 0이다.</td>
+  </tr>
+</table>
+
+### 계층형 질의에서 사용되는 함수
+
+<table>
+  <tr>
+      <th>SYS_CONNECT_BY_PATH(컬럼, 경로분리자)</th>
+      <td>루트 데이터부터 현재 전개할 데이터까지의 경로를 표시한다.</td>
+  </tr>
+  <tr>
+      <th>CONNECT_BY_ROOT(컬럼)</th>
+      <td>현재 전개할 데이터의 루트 데이터를 표시한다. 단항 연산자이다.</td>
+  </tr>
+</table>
+
+
+
+
