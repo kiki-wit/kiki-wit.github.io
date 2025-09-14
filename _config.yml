@@ -14,10 +14,15 @@ menu:
     url: /
   - title: About
     url: /about
-  - title: Contact
-    url: /contact
-  - title: Feed
-    url: /feed.xml
+  - title: 개발환경
+    url: /setting
+    children:
+      - title: 카프카
+        url: /setting/kafka
+  # - title: Contact
+  #   url: /contact
+  # - title: Feed
+  #   url: /feed.xml
 email: 
 # See: https://disqus.com/
 disqus_username: disqus_username

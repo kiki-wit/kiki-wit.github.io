@@ -68,8 +68,6 @@ GROUP BY GROUPING SETS(department, job);
   </tbody>
 </table>
 
-
-
 `결과`
 <table border="1">
   <thead>
