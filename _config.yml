@@ -30,6 +30,7 @@ disqus_username: disqus_username
 # See: https://formspree.io/
 formspree_form_id: formspree_form_id
 
+future: true
 
 # Social Media Settings
 # Remove the item if you don't need it
